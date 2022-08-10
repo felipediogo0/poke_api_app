@@ -21,6 +21,7 @@ header {
     background: #fff;
     max-width: 450px;
     min-height: 300px;
+    text-align: center;
 }
 
 header, img{
@@ -57,4 +58,19 @@ button {
     width: 80%;
     height: 30px;
     margin: 10px;
+}
+
+#poke_img{
+    display: flex;
+    background-color: #3D68BB;
+    border: solid red;
+    border-radius: 5%;     
+}
+
+#poke_info{
+    background-color: #3D68BB;
+    border: solid #FAC705;
+    border-radius: 5%;
+    font-size: 2rem;
+    color: #ccc;
 }
