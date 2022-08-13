@@ -31,7 +31,7 @@ header, img{
 }
 
 .play_pokemon {
-    display: flex;
+    display: grid;
     font-weight: 400;
     background-color: #FAC705;
     max-width: 600px;
@@ -45,12 +45,12 @@ header, img{
 main{
     display: grid;
     justify-items: center;
-    width: 40%;
+    width: 95%;
     margin: 10px;   
 }
 
 label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 input {
@@ -76,14 +76,18 @@ button {
     background-color: #BFD1E5;
     border: solid #3D68BB;
     border-radius: 5%; 
-    width: 122%;        
+    width: 100%;        
 }
 
 #poke_info{
     background-color: #BFD1E5;
     border: solid #3D68BB;
     border-radius: 5%;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #3D68BB;
-    width: 122%;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
 }
